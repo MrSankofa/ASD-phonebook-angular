@@ -1,0 +1,5 @@
+<app-contact-form (contactAdded)="handleContactAdded()"></app-contact-form>
+
+<div *ngFor="let contact of contacts()">
+    {{ contact.firstName }} {{ contact.lastName }} - {{ contact.email }}
+</div>
