@@ -26,6 +26,7 @@ export class ContactsComponent {
   }
 
   handleContactAdded() {
+    // this.contacts.update(prev => [])
     this.loadContacts();  // Refresh contact list when new contact is added
   }
 }
